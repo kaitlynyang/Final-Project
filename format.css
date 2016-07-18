@@ -21,3 +21,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+#title {
+	text-align: center;
+	font-size: 30px;
+}
