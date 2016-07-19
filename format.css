@@ -35,3 +35,8 @@ li a:hover {
     padding: 100px;
 }
     
+#catch {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
