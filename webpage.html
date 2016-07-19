@@ -2,8 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="format.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <title> Find the Light </title>
     <header id="title"> Find the Light </header>
+
   </head>
 <body>
 <ul>
@@ -13,6 +15,7 @@
   <li><a href="#action">Action</a></li>
 </ul>
 
+<!--this is the slideshow-->
 <h2 class="w3-center"></h2>
 
 <div class="w3-content w3-section" style="max-width:500px">
@@ -21,22 +24,8 @@
   <img class="mySlides" src="humanrights.jpg" style="width:100%">
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 2000); 
-}
-</script>
+<script src="js/bootstrap.min.js"></script>
 </body>
     <script src = "finalproject.js"></script>
 </html>
