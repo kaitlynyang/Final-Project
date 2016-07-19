@@ -25,5 +25,7 @@ li a:hover {
 
 #title {
 	text-align: center;
-	font-size: 30px;
+	font-size: 70px;
+    font-variant: small-caps;
+    padding: 50px;
 }
