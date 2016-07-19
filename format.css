@@ -26,5 +26,9 @@ li a:hover {
 #title {
 	text-align: center;
 	font-size: 30px;
+}
 
+.mySlides {
+    align-items: center;
+    justify-content: center;
 }
