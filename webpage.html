@@ -5,16 +5,38 @@
     <title> Find the Light </title>
     <header id="title"> Find the Light </header>
   </head>
- 
-  <body>
-    <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#issues">Issues</a></li>
-      <li><a href="#action">Action</a></li>
-    </ul>
-  </body>
+<body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#issues">Issues</a></li>
+  <li><a href="#action">Action</a></li>
+</ul>
 
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="education.jpg" style="width:100%">
+  <img class="mySlides" src="feminism.jpg" style="width:100%">
+  <img class="mySlides" src="humanrights.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); 
+}
+</script>
+</body>
     <script src = "finalproject.js"></script>
 </html>
-
