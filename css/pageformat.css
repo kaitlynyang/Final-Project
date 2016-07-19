@@ -1,0 +1,13 @@
+#issue {
+	border: 1px solid black;
+}
+
+body {
+	background-color: black;
+}
+
+#hrtitle {
+	font-size: 50px;
+	text-align: center;
+}
+
