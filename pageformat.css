@@ -5,3 +5,35 @@
 body {
 	background-color: black;
 }
+
+#feminism {
+	text-align: center;
+	font-size: 70px;
+    font-variant: small-caps;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+#education {
+	text-align: center;
+	font-size: 70px;
+    font-variant: small-caps;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+#enviro {
+	text-align: center;
+	font-size: 70px;
+    font-variant: small-caps;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+#humanrights {
+	text-align: center;
+	font-size: 70px;
+    font-variant: small-caps;
+    padding: 50px;
+    padding-bottom: 20px;
+}
