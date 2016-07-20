@@ -3,6 +3,13 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/format.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
     <title> Find the Light </title>
     <header id="action"> Get Involved! </header>
   </head>
@@ -46,19 +53,15 @@
 
 <!--Google Map-->
 <center>
-  <br>
-      <div id="map"></div>
-  <br>
-  <form>
-    <input type="text" name="search" placeholder="Search..">
-  </form>
+  <input id="pac-input" class="controls" type="text"
+        placeholder="Enter a location">
+    <div id="map"></div> 
 </center>
 
- <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2T7rlLh3hlqZIVYkWK0NSXdNEYUuMU_8&callback=initMap">
-</script>
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src = "js/finalproject.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2T7rlLh3hlqZIVYkWK0NSXdNEYUuMU_8&libraries=places&callback=initMap"
+        async defer></script>
+
+
+<script src ="js/finalproject.js"></script>
 </body>
 </html>
