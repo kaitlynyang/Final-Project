@@ -76,10 +76,6 @@
     border: 1px solid black;
 }
 
-/*#map {
-    width: 50%;
-    height: 350px;
-}*/
 
 html, body {
     height: 100%;
@@ -88,8 +84,8 @@ html, body {
 }
 
 #map {
-    width: 75%;
-    height: 350px;
+    width: 50%;
+    height: 450px;
 }
 
 .controls {
