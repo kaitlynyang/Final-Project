@@ -16,12 +16,12 @@
 //Attempt 2 at location//
 
 function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -33.8688, lng: 151.2195},
-          zoom: 13
-        });
+    var map = new google.maps.Map(document.getElementById('map'), {
+    	center: {lat: -33.8688, lng: 151.2195},
+        zoom: 13
+    });
 
-        var input = document.getElementById('pac-input');
+    var input = document.getElementById('pac-input');
 
         var autocomplete = new google.maps.places.Autocomplete(input);
         autocomplete.bindTo('bounds', map);
@@ -62,7 +62,7 @@ function initMap() {
               place.formatted_address);
           infowindow.open(map, marker);
         });
-      }
+}
 
 // function initMap() {
 //     var mapDiv = document.getElementById("map");

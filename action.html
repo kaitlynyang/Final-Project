@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/format.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/format.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-    <title> Find the Light </title>
-    <header id="action"> Get Involved! </header>
-  </head>
+  <title> Find the Light </title>
+</head>
 <body>
-<!-- this is the nav bar -->
+  <header id="action"> Get Involved! </header>
+  <!-- this is the nav bar -->
 
-<ul class="nav nav-tabs">
-  <li role="presentation">
-    <a class="dropdown-toggle" href="webpage.html" role="button" aria-haspopup="true" aria-expanded="false">
-      Home
-    </a>
-  </li>
+  <ul class="nav nav-tabs">
+    <li role="presentation">
+      <a class="dropdown-toggle" href="webpage.html" role="button" aria-haspopup="true" aria-expanded="false">
+        Home
+      </a>
+    </li>
 
-  <li role="presentation" class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-    About
-    <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu">
-      <li><a href="vision.html">About our Vision</a></li>
-      <li><a href="creators.html">About the Creators</a></li>
-    </ul>
-  </li>
-
-<li role="presentation" class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Issues<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-      <li><a href="Education.html">Education</a></li>
-      <li><a href="Feminism.html">Feminism</a></li>
-      <li><a href="Human_Rights.html">Human Rights</a></li>
-      <li><a href="Environment.html">Environment</a></li>
-    </ul>
-  </li>
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      About
+      <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="vision.html">About our Vision</a></li>
+        <li><a href="creators.html">About the Creators</a></li>
+      </ul>
+    </li>
 
   <li role="presentation" class="dropdown">
-    <a class="dropdown-toggle" href="action.html" role="button" aria-haspopup="true" aria-expanded="false">
-      Action
-    </a>
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Issues<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Feminism.html">Feminism</a></li>
+        <li><a href="Human_Rights.html">Human Rights</a></li>
+        <li><a href="Environment.html">Environment</a></li>
+      </ul>
   </li>
-</ul>
 
-<!--Google Map-->
-<center>
-  <input id="pac-input" class="controls" type="text"
-        placeholder="Enter a location">
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" href="action.html" role="button" aria-haspopup="true" aria-expanded="false">
+        Action
+      </a>
+    </li>
+  </ul>
+
+  <!--Google Map-->
+  <center>
+    <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
     <div id="map"></div> 
-</center>
+  </center>
 
- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2T7rlLh3hlqZIVYkWK0NSXdNEYUuMU_8&libraries=places&callback=initMap"
-        async defer></script>
+ <!--  <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2T7rlLh3hlqZIVYkWK0NSXdNEYUuMU_8&callback=initMap">
+  </script> -->
 
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2T7rlLh3hlqZIVYkWK0NSXdNEYUuMU_8&libraries=places&callback=initMap" async defer></script>
 
-<script src ="js/finalproject.js"></script>
+  <script src ="js/finalproject.js"></script>
 </body>
 </html>
