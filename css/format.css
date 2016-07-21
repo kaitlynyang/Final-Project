@@ -145,7 +145,12 @@
     padding-top:.010009%;
 }
 
-.footer {
-    font-style: bold;
+.footerrow {
     background-color: #b7cad2;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.twitterrow {
+    margin-bottom:0%;
 }
