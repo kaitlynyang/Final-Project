@@ -140,10 +140,11 @@
 }
 
 .footerrow {
-    padding-top: 1%;
+    padding-top: 3%;
     background-color: #b7cad2;
     margin-bottom: 0%;
     margin-top: 0%;
+    padding-bottom: 3%;
 }
 
 .twitterrow {
