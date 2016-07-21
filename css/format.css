@@ -104,11 +104,8 @@
     margin: 0 auto;
 }
 
-.twitter-timeline{
-    margin: .6%;
-}
 
-#timeline {
+.row {
     margin-top: 3%;
     background-color: #e6e6e6;
 }
@@ -141,21 +138,8 @@
 .welcomedescr {
     text-align: center;
 }
+
 footer {
     font-style: bold;
     background-color: #b7cad2;
-}
-.left{
-    margin-left: 5%; 
-    text-align: left;
-    float: left; width: 30%;
-}
-.right{
-    margin-right: 5%;
-    text-align: right;
-    float: right; width: 30%;
-}
-.centered{
-    text-align:center;
-    display: inline-block; width: 30%;
 }
