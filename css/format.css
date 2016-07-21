@@ -147,7 +147,9 @@
 }
 
 .twitterrow {
+    padding-top: 5%;
     margin-bottom:0%;
-    margin-top: 5%;
+    margin-top: 0%;
     background-color: #e6e6e6;
+    padding-bottom: 5%;
 }
