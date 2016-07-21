@@ -92,3 +92,14 @@
 #legend img {
     vertical-align: left;
       }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width:100%;
+  }
+
+#myCarousel {
+    width: 50%;
+    height:30%;
+    margin: 0 auto;
+}

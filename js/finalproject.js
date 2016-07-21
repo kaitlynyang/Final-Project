@@ -1,20 +1,3 @@
-//Attempt 1 at location//
-// function getLocation() {
-// 	console.log("got location");
-// 	var address = document.getElementById("address1");
-//   	var geocoder = new google.maps.Geocoder();
-// 	geocoder.geocode( { 'address': address}, function(results, status) {
-
-// 	if (status == google.maps.GeocoderStatus.OK) {
-// 	   	var latitude = results[0].geometry.location.lat();
-// 	    var longitude = results[0].geometry.location.lng();
-// 	    console.log(latitude, longitude);
-// 	    }
-// 	});
-// }
-
-//Attempt 2 at location//
-
 function initMap() {
     var Newmap = new google.maps.Map(document.getElementById('map'), {
     	center:  {lat:21.007890, lng: -10.940835},
