@@ -10,56 +10,53 @@
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
 }
 
 #humanrights {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
+}
+
+#humanrightsheader {
+    background-image: url(../images/sadpic.jpg);
 }
 
 #education {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
 }
 
 #feminism {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
 }
 
 #vision {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
 }
 
 #creators {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
 }
 
 #action {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
+    padding: 7%;
 }
 
 #catch {
