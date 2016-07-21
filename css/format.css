@@ -141,3 +141,21 @@
 .welcomedescr {
     text-align: center;
 }
+footer {
+    font-style: bold;
+    background-color: #3386FF;
+}
+.left{
+    margin-left: 5%; 
+    text-align: left;
+    float: left; width: 30%;
+}
+.right{
+    margin-right: 5%;
+    text-align: right;
+    float: right; width: 30%;
+}
+.centered{
+    text-align:center;
+    display: inline-block; width: 30%;
+}
