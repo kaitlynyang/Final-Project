@@ -130,3 +130,12 @@
     font-weight: bold;
 
 }
+
+#welcome {
+    text-align: center;
+    margin-top: 3.5%;
+}
+
+.welcomedescr {
+    text-align: center;
+}
