@@ -105,13 +105,14 @@
 }
 
 .twitter-timeline{
-    margin: .5%;
+    margin: .6%;
 }
 
 #timeline {
     margin-top: 3%;
     background-color: #e6e6e6;
 }
+
 .carousel-caption {
     background: rgba(0,0,0,0.5);
     padding: .1% !important;
@@ -119,6 +120,7 @@
     right: 0px !important;
     left: 0px !important;
 }
+
 .carousel-caption p{
     font-size: 12px;
     color: white !important;
