@@ -17,7 +17,7 @@
 
 function initMap() {
     var Newmap = new google.maps.Map(document.getElementById('map'), {
-    	center:  {lat:-25.274, lng: 133.775},
+    	center:  {lat:21.007890, lng: -10.940835},
         zoom: 1
     });
 
@@ -48,5 +48,36 @@ function initMap() {
             title: "Educational Equity in Action\nJune 20 & 21, 2016\nUniversity of Minnesota West Bank Campus",
             icon: "images/bluedot.jpg"
         });
+
+                var icons = {
+          Education: {
+            name: 'Education',
+            icon: 'images/bluedot.jpg'
+          },
+          Environment: {
+            name: 'Environment',
+            icon: 'images/greendot.jpg'
+          },
+          Human_Rights: {
+            name: 'Human Rights',
+            icon: 'images/yellowdot.jpg'
+          },
+          Feminism: {
+            name: 'Feminism',
+            icon: 'images/reddot.jpg'
+          }
+        };
+
+        var legend = document.getElementById('legend');
+        for (var key in icons) {
+          var type = icons[key];
+          var name = type.name;
+          var icon = type.icon;
+          var div = document.createElement('div');
+          div.innerHTML = '<img src="' + icon + '"> ' + name;
+          legend.appendChild(div);
+        };
+
+        Newmap.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 
 }

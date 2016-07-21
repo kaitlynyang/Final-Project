@@ -80,3 +80,15 @@
     width: 50%;
     height: 450px;
 }
+#legend {
+    font-family: Arial, sans-serif;
+    font-size: 12;
+    background: #fff;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid #000;
+      }
+      
+#legend img {
+    vertical-align: left;
+      }
