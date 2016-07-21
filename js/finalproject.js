@@ -22,30 +22,31 @@ function initMap() {
     });
 
         var marker1 = new google.maps.Marker({
-        	position: {lat:-25.274, lng: 133.775},
+        	position: {lat:53.955820, lng: -1.079940},
         	map: Newmap,
-        	title: "Australia"
+        	title: "No Fracking Demonstration\nJuly 30, 2016\n12:00pm to 2:30pm\nCliffords Tower, Yorkshire, England",
+          icon: "images/greendot.jpg"
         });
 
-		var marker2 = new google.maps.Marker({
-			position: {lat:-40.9, lng:174.88},
-		    map: Newmap,
-		    title: "New Zealand"
-		});
+    		var marker2 = new google.maps.Marker({
+    			position: {lat:38.907192, lng:-77.036871},
+    		  map: Newmap,
+    		  title: "National Sexual Assault Conference 2016\nAugust 31, 2016\nAll day\n2660 Woodley Road NW, Washinton, DC",
+          icon: "images/reddot.jpg"
+    		});
 
         var marker3 = new google.maps.Marker({
-            position: {lat:33.93, lng:-118.38},
+            position: {lat:40.820897, lng:-73.953896},
             map: Newmap,
-            title: "New Zealand"
+            title: "The People’s Resistance to the Venezuelan Food Crisis\nJuly 30, 2016\n4:00pm to 6:00pm\n9A Hamilton Place, Boston, Massachusetts",
+            icon: "images/yellowdot.jpg"
         });
 
+        var marker4 = new google.maps.Marker({
+            position: {lat:46.905900, lng:-95.058900},
+            map: Newmap,
+            title: "Educational Equity in Action\nJune 20 & 21, 2016\nUniversity of Minnesota West Bank Campus",
+            icon: "images/bluedot.jpg"
+        });
 
 }
-
-// function initMap() {
-//     var mapDiv = document.getElementById("map");
-//     var map = new google.maps.Map(mapDiv, {
-//         center: {lat: -100, lng: 100},
-//         zoom: 10
-//     });
-//}
