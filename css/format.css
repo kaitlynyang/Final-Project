@@ -99,17 +99,11 @@
   }
 
 #myCarousel {
-    width: 50%;
-    height:30%;
+    width: 60%;
+    height:40%;
     margin: 0 auto;
 }
 
-
-.row {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: #e6e6e6;
-}
 
 .carousel-caption {
     background: rgba(0,0,0,0.5);
