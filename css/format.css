@@ -142,9 +142,10 @@
 
 #welcomeback {
     background-color: #b7cad2;
+    padding-top:.010009%;
 }
 
-footer {
+.footer {
     font-style: bold;
     background-color: #b7cad2;
 }
