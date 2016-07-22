@@ -30,18 +30,33 @@
     font-size: 70px;
     font-variant: small-caps;
     padding: 7%;
+    color:white;
 }
 
+#environmentheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/environment.jpg);
+
+}
 #humanrights {
     text-align: center;
     font-size: 70px;
     font-variant: small-caps;
     padding: 7%;
+    color:white;
 }
 
 #humanrightsheader {
-    background-image: url(../images/sadpic.jpg);
-    width: 100%;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/sadpic.jpg);
 }
 
 #education {
@@ -58,8 +73,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../images/learnboy.jpeg);
-    width: 100%;
+    url(../images/classroom.jpg);
 }
 
 #feminism {
