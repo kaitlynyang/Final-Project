@@ -8,6 +8,23 @@
 
 }
 
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+.clear {
+  clear:both;
+}
+
 #enviro {
     text-align: center;
     font-size: 70px;
@@ -24,6 +41,7 @@
 
 #humanrightsheader {
     background-image: url(../images/sadpic.jpg);
+    width: 100%;
 }
 
 #education {
@@ -31,6 +49,17 @@
     font-size: 70px;
     font-variant: small-caps;
     padding: 7%;
+    color: white;
+}
+
+#educationheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/learnboy.jpeg);
+    width: 100%;
 }
 
 #feminism {
