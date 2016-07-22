@@ -1,13 +1,33 @@
+/*homepage css*/
 #hometitle {
     text-align: center;
     font-family: Sketch-Toronto;
     font-size: 100px;
     font-variant: small-caps;
-    padding: 50px;
-    padding-bottom: 20px;
-
+    padding: 5%;
+    padding-bottom: .001%;
+    color:white;
 }
 
+#homeheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/bulbs.jpg);
+
+}
+#catch {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: Aliens-Cows;
+    padding-bottom: 3%;
+    color: white;
+}
+
+/*nav bar css*/
 .float_center {
   float: right;
 
@@ -25,6 +45,7 @@
   clear:both;
 }
 
+/*specific page css*/
 #enviro {
     text-align: center;
     font-size: 70px;
@@ -104,13 +125,6 @@
     padding: 7%;
 }
 
-#catch {
-    text-align: center;
-    font-size: 30px;
-    color: black;
-    font-family: Aliens-Cows;
-}
-
 #resHome {
     text-decoration: underline;
 }
@@ -119,6 +133,7 @@
     border: 1px solid black;
 }
 
+/*map and legend css*/
 #map {
     width: 50%;
     height: 450px;
@@ -136,6 +151,7 @@
     vertical-align: left;
       }
 
+/*carousel css*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
       width:100%;
