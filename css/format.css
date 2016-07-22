@@ -1,7 +1,7 @@
 #hometitle {
     text-align: center;
-    font-family: Beyond-the-Mountains;
-    font-size: 70px;
+    font-family: Sketch-Toronto;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 50px;
     padding-bottom: 20px;
@@ -165,4 +165,9 @@
 @font-face {
     font-family: Aliens-Cows;
     src:url(../fonts/aliens_and_cows_trial.ttf);
+}
+
+@font-face {
+    font-family: Sketch-Toronto;
+    src: url(../fonts/sketch_toronto.otf);
 }
