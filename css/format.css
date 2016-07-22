@@ -8,10 +8,6 @@
 
 }
 
-@font-face {
-    font-family:Beyond-the-Mountains;
-    src:url(../fonts/beyond_the_mountains.ttf);
-}
 
 #enviro {
     text-align: center;
@@ -132,6 +128,7 @@
 #welcome {
     margin-top: 3.5%;
     text-align: center;
+    font-family: Aliens-Cows;
 }
 
 .welcomedescr {
@@ -157,4 +154,16 @@
     margin-top: 0%;
     background-color: #e6e6e6;
     padding-bottom: 5%;
+}
+
+/*ALL FONTS*/
+/*call the font-family when you want to use that font*/
+@font-face {
+    font-family:Beyond-the-Mountains;
+    src:url(../fonts/beyond_the_mountains.ttf);
+}
+
+@font-face {
+    font-family: Aliens-Cows;
+    src:url(../fonts/aliens_and_cows_trial.ttf);
 }
