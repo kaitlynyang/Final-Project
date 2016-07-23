@@ -102,6 +102,16 @@
     font-size: 70px;
     font-variant: small-caps;
     padding: 7%;
+    color:white;
+}
+
+#feminismheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/feminism.jpg);
 }
 
 #vision {
@@ -116,6 +126,17 @@
     font-size: 70px;
     font-variant: small-caps;
     padding: 7%;
+    color:white;
+}
+
+#creatorsheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/creators.jpg);
+
 }
 
 #action {
