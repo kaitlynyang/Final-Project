@@ -16,6 +16,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../images/editedbulbs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #catch {
@@ -62,6 +64,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../images/environment.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 #humanrights {
@@ -80,6 +84,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../images/sadpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #education {
@@ -98,6 +104,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../images/classroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #feminism {
@@ -115,6 +123,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../images/feminism.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Sketch-Toronto;
 }
 
