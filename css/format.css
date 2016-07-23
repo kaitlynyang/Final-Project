@@ -281,7 +281,7 @@
 /*social media in footer
 
 
-/* Wrapper */
+Wrapper */
 .icon-button {
     background-color: white;
     border-radius: 3.6rem;
@@ -348,6 +348,7 @@
     z-index: 10;
 }
 .icon-button .icon-twitter {
+    background-image: url("twitterlogo.png");
     color: #4099ff;
 }
 .icon-button .icon-facebook {
