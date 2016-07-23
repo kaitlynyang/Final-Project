@@ -282,8 +282,8 @@
 
 
 Wrapper */
-.icon-button {
-    background-color: white;
+.icon-button {  
+    background-color:white;
     border-radius: 3.6rem;
     cursor: pointer;
     display: inline-block;
@@ -333,7 +333,6 @@ Wrapper */
 
 /* Icons */
 .icon-button i {
-    background: none;
     color: white;
     height: 3.6rem;
     left: 0;
@@ -348,7 +347,6 @@ Wrapper */
     z-index: 10;
 }
 .icon-button .icon-twitter {
-    background-image: url("twitterlogo.png");
     color: #4099ff;
 }
 .icon-button .icon-facebook {
@@ -362,8 +360,6 @@ Wrapper */
 .icon-button:hover .icon-google-plus {
     color: white;
 }
-
-
 
 /*ALL FONTS*/
 /*call the font-family when you want to use that font*/
