@@ -141,6 +141,8 @@
       rgba(0, 0, 0, 0.5)
     ),
     url(../images/creators.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Sketch-Toronto;
 }
 
