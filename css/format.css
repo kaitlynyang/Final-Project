@@ -20,9 +20,9 @@
 }
 #catch {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
-    font-family: Aliens-Cows;
+    font-family: Basic-Title;
     padding-bottom: 3%;
     color: white;
 }
@@ -48,10 +48,11 @@
 /*specific page css*/
 #enviro {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
     color:white;
+    font-family: Sketch-Toronto;
 }
 
 #environmentheader {
@@ -65,10 +66,11 @@
 }
 #humanrights {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
     color:white;
+    font-family: Sketch-Toronto;
 }
 
 #humanrightsheader {
@@ -82,10 +84,11 @@
 
 #education {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
     color: white;
+    font-family: Sketch-Toronto;
 }
 
 #educationheader {
@@ -99,30 +102,34 @@
 
 #feminism {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    font-family: Sketch-Toronto;
 }
 
 #vision {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    font-family: Sketch-Toronto;
 }
 
 #creators {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    font-family: Sketch-Toronto;
 }
 
 #action {
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    font-family: Sketch-Toronto;
 }
 
 #resHome {
@@ -187,11 +194,13 @@
 #welcome {
     margin-top: 3.5%;
     text-align: center;
-    font-family: Aliens-Cows;
+    font-family: Basic-Title;
+    font-weight: bold;
 }
 
 .welcomedescr {
     text-align: center;
+    font-family: "Arial";
 }
 
 #welcomeback {
@@ -205,6 +214,8 @@
     margin-bottom: 0%;
     margin-top: 0%;
     padding-bottom: 3%;
+    font-family: Basic-Title;
+    font-size: 25px;
 }
 
 .twitterrow {
@@ -230,4 +241,9 @@
 @font-face {
     font-family: Sketch-Toronto;
     src: url(../fonts/sketch_toronto.otf);
+}
+
+@font-face {
+    font-family: Basic-Title;
+    src: url(../fonts/basictitlefont.ttf);
 }
