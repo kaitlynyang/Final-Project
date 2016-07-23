@@ -55,6 +55,7 @@
     padding: 7%;
     color:white;
     font-family: Sketch-Toronto;
+    color:white;
 }
 
 #environmentheader {
@@ -75,6 +76,7 @@
     padding: 7%;
     color:white;
     font-family: Sketch-Toronto;
+    color:white;
 }
 
 #humanrightsheader {
@@ -95,6 +97,7 @@
     padding: 7%;
     color: white;
     font-family: Sketch-Toronto;
+    color:white;
 }
 
 #educationheader {
@@ -113,6 +116,7 @@
     font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    font-family: Sketch-Toronto;
     color:white;
 }
 
@@ -125,7 +129,7 @@
     url(../images/feminism.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Sketch-Toronto;
+    
 }
 
 #vision {
@@ -133,6 +137,7 @@
     font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    color:white;
     font-family: Sketch-Toronto;
 }
 
@@ -141,6 +146,7 @@
     font-size: 100px;
     font-variant: small-caps;
     padding: 7%;
+    font-family: Sketch-Toronto;
     color:white;
 }
 
@@ -153,15 +159,28 @@
     url(../images/creators.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Sketch-Toronto;
 }
 
 #action {
     text-align: center;
     font-size: 100px;
     font-variant: small-caps;
-    padding: 7%;
+    padding: 5%;
     font-family: Sketch-Toronto;
+    padding-bottom: .001%;
+    color:white;
+}
+
+#actionheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/handbulb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 #resHome {
