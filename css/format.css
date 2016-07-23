@@ -141,6 +141,17 @@
     font-family: Sketch-Toronto;
 }
 
+#visionheader {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/visionheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #creators {
     text-align: center;
     font-size: 100px;
