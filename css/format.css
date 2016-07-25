@@ -111,14 +111,29 @@
     background-repeat: no-repeat;
 }
 
-#edustats h2 {
+#edustats {
     text-align: center;
+    font-weight:bold;
     font-family: Basic-Title;
+    color:white;
 }
-#edumainstat {
-    display: block;
-    margin-right: 50%;
-    margin-left:auto;
+
+#edubeforenow {
+    border:5px solid black;
+}
+
+#mandela {
+    border:5px solid black;
+}
+
+#stem {
+    border:5px solid black;
+}
+
+.edurow {
+    background-image: url(../images/greenboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #feminism {
