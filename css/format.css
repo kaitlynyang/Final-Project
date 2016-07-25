@@ -21,10 +21,12 @@
 
 }
 
-#explSlide {
+#explSlide h4{
     text-align: center; 
-    font-size: 25px;
-    color:lime;
+    font-size: 30px;
+    color:black;
+    font-family:Basic-Title;
+    font-weight:bold;
 }
 #catch {
     text-align: center;
