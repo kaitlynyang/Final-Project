@@ -224,6 +224,19 @@ a.eduted{
     background-repeat: no-repeat;
 }
 
+#visionhead {
+    font-family: Star-Wars;
+    text-align:center;
+    text-shadow: 3px 3px #ffff00;
+
+}
+
+.visionpara {
+    text-align: center;
+    font-family: Basic-Title;
+    font-weight: bold;
+}
+
 #creators {
     text-align: center;
     font-size: 100px;
@@ -489,4 +502,9 @@ Wrapper */
 @font-face {
     font-family: Basic-Title;
     src: url(../fonts/basictitlefont.ttf);
+}
+
+@font-face {
+    font-family: Star-Wars;
+    src: url(../fonts/Starjedi.ttf);
 }
