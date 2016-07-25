@@ -73,6 +73,18 @@
     background-repeat: no-repeat;
 
 }
+
+#climatechangevideo {
+    color:white;
+
+}
+
+.environmentrow {
+    background-image: url(../images/envirobackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 #humanrights {
     text-align: center;
     font-size: 100px;
