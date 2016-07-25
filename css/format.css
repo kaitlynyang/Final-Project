@@ -119,14 +119,29 @@
     background-repeat: no-repeat;
 }
 
-#edustats h2 {
+#edustats {
     text-align: center;
+    font-weight:bold;
     font-family: Basic-Title;
+    color:white;
 }
-#edumainstat {
-    display: block;
-    margin-right: 50%;
-    margin-left:auto;
+
+#edubeforenow {
+    border:5px solid black;
+}
+
+#mandela {
+    border:5px solid black;
+}
+
+#stem {
+    border:5px solid black;
+}
+
+.edurow {
+    background-image: url(../images/greenboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #feminism {
@@ -148,6 +163,27 @@
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+
+#femstats h2 {
+    text-align: center;
+    font-family: Basic-Title;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#femstats h3 {
+    text-align: center;
+    font-family: Basic-Title;
+    font-weight: bold;
+}
+
+.feminismrow {
+    margin-top: 20px;
+}
+
+.feminismimg {
+    margin: auto;
 }
 
 #vision {
@@ -296,6 +332,7 @@
     padding-bottom: 3%;
     font-family: Basic-Title;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .twitterrow {
