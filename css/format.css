@@ -111,6 +111,13 @@
     background-repeat: no-repeat;
 }
 
+#edustats {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #feminism {
     text-align: center;
     font-size: 100px;
