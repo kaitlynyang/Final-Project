@@ -130,10 +130,21 @@
     border:5px solid black;
 }
 
-.edurow {
+.edurow1 {
     background-image: url(../images/greenboard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.edurow1 h3{
+    color: white;
+    font-family:Basic-Title;
+    font-weight:bold;
+}
+
+a.eduted{
+    color:white;
+    font-family:Basic-Title;
 }
 
 #feminism {
