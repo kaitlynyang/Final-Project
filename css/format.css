@@ -20,12 +20,6 @@
     background-repeat: no-repeat;
 
 }
-
-#explSlide {
-    text-align: center; 
-    font-size: 25px;
-    color:lime;
-}
 #catch {
     text-align: center;
     font-size: 25px;
@@ -75,8 +69,6 @@
     background-repeat: no-repeat;
 
 }
-
-
 #humanrights {
     text-align: center;
     font-size: 100px;
@@ -184,6 +176,17 @@
 
 .feminismimg {
     margin: auto;
+}
+
+.femtitles {
+    text-decoration: underline;
+    font-family: Basic-Title;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.femcolor {
+    background-color: #ff66b3;
 }
 
 #vision {
