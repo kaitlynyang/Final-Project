@@ -74,9 +74,10 @@
 
 }
 
-#climatechangevideo {
+#envirovideo {
     color:white;
-
+    font-family: Basic-Title;
+    font-weight:bold;
 }
 
 .environmentrow {
