@@ -157,6 +157,27 @@
     
 }
 
+#femstats h2 {
+    text-align: center;
+    font-family: Basic-Title;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#femstats h3 {
+    text-align: center;
+    font-family: Basic-Title;
+    font-weight: bold;
+}
+
+.feminismrow {
+    margin-top: 20px;
+}
+
+.feminismimg {
+    margin: auto;
+}
+
 #vision {
     text-align: center;
     font-size: 100px;
@@ -303,6 +324,7 @@
     padding-bottom: 3%;
     font-family: Basic-Title;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .twitterrow {
