@@ -20,6 +20,10 @@
     background-repeat: no-repeat;
 
 }
+#explSlide {
+    text-align:center;
+    color:lime;
+}
 #catch {
     text-align: center;
     font-size: 25px;
