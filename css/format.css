@@ -288,6 +288,24 @@ a.eduted{
     vertical-align: left;
       }
 
+ .mapdescription {
+    text-align:center;
+    background-color:#b7cad2;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#mapac {
+    font-family: Basic-Title;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#mapdesc {
+    font-family: Arial;
+}
+
 /*carousel css*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
