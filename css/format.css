@@ -20,14 +20,6 @@
     background-repeat: no-repeat;
 
 }
-
-#explSlide h4{
-    text-align: center; 
-    font-size: 30px;
-    color:black;
-    font-family:Basic-Title;
-    font-weight:bold;
-}
 #catch {
     text-align: center;
     font-size: 25px;
@@ -77,8 +69,6 @@
     background-repeat: no-repeat;
 
 }
-
-
 #humanrights {
     text-align: center;
     font-size: 100px;
@@ -140,23 +130,10 @@
     border:5px solid black;
 }
 
-a.eduted{
-    color:white; 
-    font-family: Basic-Title;
-    background-color:transparent; 
-    font-size:18px;
-}
-
-.edurow1 {
+.edurow {
     background-image: url(../images/greenboard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.edurow1 h3 {
-    font-family: Basic-Title;
-    font-size: 20px;
-    color:white;
 }
 
 #feminism {
@@ -199,6 +176,17 @@ a.eduted{
 
 .feminismimg {
     margin: auto;
+}
+
+.femtitles {
+    text-decoration: underline;
+    font-family: Basic-Title;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.femcolor {
+    background-color: #ff66b3;
 }
 
 #vision {
