@@ -20,6 +20,12 @@
     background-repeat: no-repeat;
 
 }
+
+#explSlide {
+    text-align: center; 
+    font-size: 25px;
+    color:lime;
+}
 #catch {
     text-align: center;
     font-size: 25px;
@@ -69,6 +75,8 @@
     background-repeat: no-repeat;
 
 }
+
+
 #humanrights {
     text-align: center;
     font-size: 100px;
