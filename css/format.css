@@ -232,6 +232,11 @@ a.edulinks {
     background-color: #ff66b3;
 }
 
+.femvid {
+    font-family: Basic-Title;
+    font-size:20px;
+    font-weight:bold;
+}
 #vision {
     text-align: center;
     font-size: 100px;
