@@ -160,6 +160,12 @@
 .globaledu {
     border:5px solid black;
 }
+
+.edurow p {
+    font-family: Chalky-Chicken;
+    font-size: 40px;
+    color:white;
+}
 .edurow2 h3{
     color: white;
     font-family:Basic-Title;
