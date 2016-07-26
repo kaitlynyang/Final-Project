@@ -240,6 +240,14 @@ a.edulinks {
     background-color: #ffb3d9;
 }
 
+#femresources {
+    padding-top: 30px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: Basic-Title;
+    font-size:25px;
+}
+
 #femquote {
     font-family: Basic-Title;
     text-align: center;
