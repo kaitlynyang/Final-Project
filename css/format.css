@@ -239,7 +239,15 @@ a.edulinks {
     text-align: center;
     border: 1px ridge white;
     box-shadow: 7px 7px 5px #ff66b3;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+#femgloria {
+    font-family: Basic-Title;
+    text-align: center;
+    border: 1px ridge white;
+    box-shadow: 7px 7px 5px #ff66b3;
+    font-size: 50px;
 }
 
 .quotesty {
