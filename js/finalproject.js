@@ -1,7 +1,7 @@
 function initMap() {
     var Newmap = new google.maps.Map(document.getElementById('map'), {
     	center:  {lat:21.007890, lng: -10.940835},
-        zoom: 1
+      zoom: 1
     });
 // Environment Events
         var enviro1 = new google.maps.Marker({
