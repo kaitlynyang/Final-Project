@@ -109,7 +109,7 @@ function mouseOut() {
 
 function mouseOver1() {
   var lili = document.getElementById("lili");
-  lili.src = "images/michaelscottdead.jpg";
+  lili.src = "images/bearsbeets.jpg";
 }
 function mouseOut1() {
   var lili = document.getElementById("lili");

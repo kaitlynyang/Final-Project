@@ -117,6 +117,22 @@
     text-decoration:underline;
 }
 
+.hrvid {
+    font-family: Basic-Title;
+    text-align: center;
+    border: 1px ridge white;
+    box-shadow: 7px 7px 5px #df2a2a;
+    font-size: 30px;
+}
+
+#vidtitles{
+    font-weight:bolder;
+}
+
+.humanrightsrow {
+    background-color: #4dc5b6;
+}
+
 
 #education {
     text-align: center;
