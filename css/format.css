@@ -159,6 +159,22 @@ a.envirolinks{
     text-decoration:underline;
 }
 
+.hrvid {
+    font-family: Basic-Title;
+    text-align: center;
+    border: 1px ridge white;
+    box-shadow: 7px 7px 5px #df2a2a;
+    font-size: 30px;
+}
+
+#vidtitles{
+    font-weight:bolder;
+}
+
+.humanrightsrow {
+    background-color: #4dc5b6;
+}
+
 
 #education {
     text-align: center;
@@ -297,9 +313,9 @@ a.edulinks {
 #femresources {
     padding-top: 30px;
     text-align: center;
-    list-style-position: inside;
     font-family: Basic-Title;
-    font-size:25px;
+    font-size:28px;
+    font-weight: bold;
 }
 
 #femquote {
