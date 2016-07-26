@@ -130,6 +130,14 @@
     background-repeat: no-repeat;
 }
 
+.hrtitles {
+    font-family:Basic-Title;
+    text-align:center;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+
 #education {
     text-align: center;
     font-size: 100px;
