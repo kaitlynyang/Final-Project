@@ -252,7 +252,7 @@ a.edulinks {
     background-repeat: no-repeat;
 }
 
-#visionhead {
+.visionhead {
     font-family: Star-Wars;
     text-align:center;
     text-shadow: 3px 3px #ffff00;
@@ -263,6 +263,27 @@ a.edulinks {
     text-align: center;
     font-family: Basic-Title;
     font-weight: bold;
+}
+
+#visionemp {
+    font-style: italic;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.visionlist {
+    list-style-position: inside;
+}
+
+.visioncolor {
+    background-color: #b7cad2;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.visionvision {
+    padding-bottom: 10px;
 }
 
 #creators {
