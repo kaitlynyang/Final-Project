@@ -252,7 +252,7 @@ a.edulinks {
     font-weight: bold;
     text-decoration: underline;
     font-family: White-Larch;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .femvid {
@@ -502,4 +502,14 @@ a.edulinks {
 @font-face {
     font-family: Star-Wars;
     src: url(../fonts/Starjedi.ttf);
+}
+
+@font-face {
+    font-family: White-Larch;
+    src: url(../fonts/whitelarch.ttf);
+}
+
+@font-face {
+    font-family: Young-Beautiful;
+    src: url(../fonts/youngandbeautiful.ttf);
 }
