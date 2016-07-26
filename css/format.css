@@ -77,21 +77,21 @@
 
 }
 
-#envirovideo {
+.envirovideo {
     color:white;
     font-family: Basic-Title;
     font-weight:bold;
 }
 
 .environmentrow {
-    background-image: url(../images/envirobackground.jpg);
+    background-image: url(../images/deepsea3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 #biomeofthemonth {
-    color:white;
+    color:black;
     font-family: Basic-Title;
     font-weight:bolder;
     text-align: center;
@@ -99,15 +99,37 @@
 
 }
 #rainforest {
-    color:white;
+    color:black;
     font-family: Basic-Title;
     font-weight:bold;
     text-align: center
 }
-.centerenviroimg {
+.centerenviroimgleft {
     display:block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:10%;
+}
+.centerenviroimgright {
+    display:block;
+    margin-right:10%;
+}
+#infographics {
+    color:black;
+    font-family: Basic-Title;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.envirovideo {
+    margin-left: 10%;
+}
+a.envirolinks{
+    color:black;
+    font-size:25px;
+    font-family:Basic-Title;
+    text-align:center;
+    text-decoration: underline;
+    font-weight: bold;
+
 }
 #humanrights {
     text-align: center;
