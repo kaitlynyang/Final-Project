@@ -342,6 +342,11 @@ a.edulinks {
     background-repeat: no-repeat;
 }
 
+.creatorrow h2 {
+    font-family: White-Larch;
+    font-weight:bold;
+}
+
 #action {
     text-align: center;
     font-size: 100px;
