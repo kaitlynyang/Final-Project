@@ -185,6 +185,10 @@ a.edulinks {
     font-family:Basic-Title
 }
 
+.imgcircle {
+    border-radius:50%;
+}
+
 #feminism {
     text-align: center;
     font-size: 100px;
