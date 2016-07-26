@@ -89,6 +89,26 @@
     background-repeat: no-repeat;
 
 }
+
+#biomeofthemonth {
+    color:white;
+    font-family: Basic-Title;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration:underline;
+
+}
+#rainforest {
+    color:white;
+    font-family: Basic-Title;
+    font-weight:bold;
+    text-align: center
+}
+.centerenviroimg {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
 #humanrights {
     text-align: center;
     font-size: 100px;
