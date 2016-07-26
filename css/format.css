@@ -359,6 +359,10 @@ a.femlink {
     font-weight:bold;
 }
 
+.lilidesc {
+    font-weight: bold;
+}
+
 #action {
     text-align: center;
     font-size: 100px;
