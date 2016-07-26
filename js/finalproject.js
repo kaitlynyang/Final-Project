@@ -96,3 +96,22 @@ function initMap() {
         Newmap.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 
 }
+
+// hover code
+function mouseOver() {
+  var nichole = document.getElementById("nichole");
+  nichole.src = "images/ironman.jpg";
+}
+function mouseOut() {
+  var nichole = document.getElementById("nichole");
+  nichole.src = "images/nichole.jpg";
+}
+
+function mouseOver1() {
+  var lili = document.getElementById("lili");
+  lili.src = "images/michaelscottdead.jpg";
+}
+function mouseOut1() {
+  var lili = document.getElementById("lili");
+  lili.src = "images/lili.jpg";
+}
