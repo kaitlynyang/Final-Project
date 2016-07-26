@@ -215,6 +215,8 @@ a.edulinks {
 
 .feminismrow {
     margin-top: 20px;
+    background-color: #ffb3d9;
+
 }
 
 .feminismimg {
@@ -232,11 +234,33 @@ a.edulinks {
     background-color: #ff66b3;
 }
 
+#femquote {
+    font-family: Basic-Title;
+    text-align: center;
+    border: 1px ridge white;
+    box-shadow: 7px 7px 5px #ff66b3;
+    font-size: 25px;
+}
+
+.quotemol {
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ffb3d9;
+}
+
+#malala {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: White-Larch;
+    font-size: 25px;
+}
+
 .femvid {
     font-family: Basic-Title;
     font-size:20px;
     font-weight:bold;
 }
+
 #vision {
     text-align: center;
     font-size: 100px;
@@ -478,4 +502,14 @@ a.edulinks {
 @font-face {
     font-family: Star-Wars;
     src: url(../fonts/Starjedi.ttf);
+}
+
+@font-face {
+    font-family: White-Larch;
+    src: url(../fonts/whitelarch.ttf);
+}
+
+@font-face {
+    font-family: Young-Beautiful;
+    src: url(../fonts/youngandbeautiful.ttf);
 }
