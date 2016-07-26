@@ -115,3 +115,22 @@ function mouseOut1() {
   var lili = document.getElementById("lili");
   lili.src = "images/lili.jpg";
 }
+
+function mouseOver2() {
+  var ashi = document.getElementById("ashi");
+  ashi.src = "images/puppy.jpg";
+}
+function mouseOut2() {
+  var ashi = document.getElementById("ashi");
+  ashi.src = "images/ashi.jpg";
+}
+
+function mouseOver3() {
+  var kait = document.getElementById("kait");
+  kait.src = "images/chess.jpg";
+}
+function mouseOut3() {
+  var kait = document.getElementById("kait");
+  kait.src = "images/kaitlyn.jpg";
+}
+
