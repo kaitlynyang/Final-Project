@@ -176,8 +176,8 @@ a.eduted{
 a.edulinks {
     color:white;
     font-size:24px;
-    font-family:Basic-Title}
-
+    font-family:Basic-Title
+}
 
 #feminism {
     text-align: center;
@@ -214,6 +214,7 @@ a.edulinks {
 }
 
 .feminismrow {
+    margin-top: 20px;
     background-color: #ffb3d9;
 
 }
@@ -230,7 +231,7 @@ a.edulinks {
 }
 
 .femcolor {
-    background-color: #ff66b3;
+    background-color: #ffb3d9;
 }
 
 #femquote {
@@ -241,13 +242,6 @@ a.edulinks {
     font-size: 30px;
 }
 
-#femgloria {
-    font-family: Basic-Title;
-    text-align: center;
-    border: 1px ridge white;
-    box-shadow: 7px 7px 5px #ff66b3;
-    font-size: 50px;
-}
 
 .quotesty {
     font-style: italic;
@@ -519,4 +513,9 @@ a.edulinks {
 @font-face {
     font-family: Young-Beautiful;
     src: url(../fonts/youngandbeautiful.ttf);
+}
+
+@font-face {
+    font-family: Chalky-Chicken;
+    src: url(../fonts/chalkychicken.ttf);
 }
